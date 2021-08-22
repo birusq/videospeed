@@ -273,8 +273,8 @@ function defineVideoController() {
     const document = this.video.ownerDocument;
     const speed = this.video.playbackRate.toFixed(2);
     const rect = this.video.getBoundingClientRect();
-    const top = Math.max(rect.top, 0) + "px";
-    const left = Math.max(rect.left, 0) + "px";
+    const top = 0;
+    const left = 0;
 
     log("Speed variable set to: " + speed, 5);
 

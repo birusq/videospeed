@@ -18,7 +18,7 @@
 /* YouTube player */
 .ytp-hide-info-bar .vsc-controller {
   position: relative;
-  top: 10px;
+  top: 0;
 }
 
 .ytp-autohide .vsc-controller {
